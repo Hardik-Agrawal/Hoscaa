@@ -1,0 +1,75 @@
+.btn-position {
+  position: fixed;
+  top: 10px;
+  right: 30px;
+}
+
+.team {
+  background-color: brown;
+  text-align: center;
+  width: 18vw;
+  height: 50vh;
+  position: absolute;
+  right: 80vw;
+  top: -5vh;
+}
+
+.events {
+  background-color: brown;
+  text-align: center;
+  width: 18vw;
+  height: 45vh;
+  position: absolute;
+  right: 80vw;
+  top: 46vh;
+}
+
+.banner {
+  background-color: brown;
+  text-align: center;
+  width: 48vw;
+  height: 57vh;
+  position: absolute;
+  right: 31.5vw;
+  top: -5vh;
+}
+
+.media {
+  background-color: brown;
+  text-align: center;
+  width: 15vw;
+  height: 38vh;
+  position: absolute;
+  right: 64.5vw;
+  top: 53vh;
+}
+
+.contact {
+  background-color: brown;
+  text-align: center;
+  width: 15vw;
+  height: 38vh;
+  position: absolute;
+  right: 49vw;
+  top: 53vh;
+}
+
+.empty {
+  background-color: brown;
+  text-align: center;
+  width: 17vw;
+  height: 38vh;
+  position: absolute;
+  right: 31.5vw;
+  top: 53vh;
+}
+
+.clubs {
+  background-color: brown;
+  text-align: center;
+  width: 20vw;
+  height: 96vh;
+  position: absolute;
+  right: 11vw;
+  top: -5vh;
+}
