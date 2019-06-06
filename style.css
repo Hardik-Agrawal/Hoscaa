@@ -87,7 +87,7 @@ html,body{
 
 main{
   overflow:auto;
-  padding-bottom: 100px;
+  padding-bottom: 8vw;
  
 }
 
@@ -96,9 +96,9 @@ footer {
   background-color: darkgrey;
   color: blue;
   position: relative;
-  height: 60px;
-  margin-top: -60px;
+  height: 8vh;
+  margin-top: -8vh;
   clear:both;
   text-align: center;
-  font-size:30px;
+  font-size:4vh;
 }
