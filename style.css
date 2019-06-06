@@ -4,6 +4,10 @@
   right: 30px;
 }
 
+a {
+  color: black;
+}
+
 .team {
   background-color: brown;
   text-align: center;
@@ -73,24 +77,23 @@
   right: 11vw;
   top: -5vh;
 }
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
-html,body{
+html,
+body {
   height: 100%;
 }
 
-#container{
-  min-height:100%;
+#container {
+  min-height: 100%;
 }
 
-main{
-  overflow:auto;
+main {
+  overflow: auto;
   padding-bottom: 8vw;
- 
 }
-
 
 footer {
   background-color: darkgrey;
@@ -98,7 +101,7 @@ footer {
   position: relative;
   height: 8vh;
   margin-top: -8vh;
-  clear:both;
+  clear: both;
   text-align: center;
-  font-size:4vh;
+  font-size: 4vh;
 }
