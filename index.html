@@ -23,6 +23,7 @@
       rel="stylesheet"
     />
     <link href="./lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
     <title>HoSCA</title>
   </head>
@@ -30,7 +31,8 @@
   <body>
     <div class="dropdown">
       <button
-        class="btn fa fa-bars btn-position"
+        class="btn fa fa-bars"
+        id="drop-btn"
         style="font-size: 25px"
         type="button"
         id="dropdownMenu2"
@@ -40,12 +42,21 @@
       ></button>
       <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
         <a href="./team.html"><div class="team">Team</div></a>
-        <div class="events">Events</div>
-        <div class="banner">Banner</div>
         <div class="media">Media</div>
+        <div class="banner"></div>
+        <div class="events">Events</div>
         <div class="contact">Contact</div>
         <div class="empty"></div>
-        <div class="clubs">Clubs</div>
+        <div class="clubs">
+          <h1>Clubs</h1>
+          <ul class="list-unstyled">
+            <li id="dramatics">
+              <a href="./clubs/dramatics.html">Dramatics</a>
+            </li>
+            <li><a href="./clubs/dance.html">Dance</a></li>
+            <li><a href="./clubs/music.html">Music</a></li>
+          </ul>
+        </div>
       </div>
     </div>
     <!--Main content goes here-->
@@ -61,11 +72,20 @@
      </footer>
 
 
+    
+              
+
+    
+    
+
+    <script src="./index.js"></script>
+    <!-- Bootstrap JavaScript -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
       crossorigin="anonymous"
     ></script>
+
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
@@ -76,7 +96,9 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4322c6b4e4c20a8e0924f24fb484f8d729e77d35
   </body>
-  
 </html>

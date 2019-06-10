@@ -1,41 +1,55 @@
-.btn-position {
+#drop-btn {
   position: fixed;
   top: 10px;
   right: 30px;
 }
 
+a {
+  color: white;
+  font-size: 5vh;
+}
+
+.dropdown-menu {
+  border: 1px solid white;
+}
+
 .team {
-  background-color: brown;
+  background-color: black;
   text-align: center;
-  width: 18vw;
-  height: 50vh;
+  width: 19vw;
+  height: 51.5vh;
   position: absolute;
-  right: 80vw;
-  top: -5vh;
-}
-
-.events {
-  background-color: brown;
-  text-align: center;
-  width: 18vw;
-  height: 45vh;
-  position: absolute;
-  right: 80vw;
-  top: 46vh;
-}
-
-.banner {
-  background-color: brown;
-  text-align: center;
-  width: 48vw;
-  height: 57vh;
-  position: absolute;
-  right: 31.5vw;
+  right: 79.5vw;
   top: -5vh;
 }
 
 .media {
-  background-color: brown;
+  background-color: rgb(97, 85, 85);
+  text-align: center;
+  width: 19vw;
+  height: 45vh;
+  position: absolute;
+  right: 79.5vw;
+  top: 46vh;
+}
+
+.banner {
+  opacity: 0;
+  background-color: white;
+  background-image: url(./images/banner.png);
+  background-position-x: 6vw;
+  background-position-y: -8vh;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 55vw;
+  height: 58vh;
+  position: absolute;
+  right: 24.5vw;
+  top: -5vh;
+}
+
+.events {
+  background-color: black;
   text-align: center;
   width: 15vw;
   height: 38vh;
@@ -47,15 +61,15 @@
 .contact {
   background-color: brown;
   text-align: center;
-  width: 15vw;
+  width: 16vw;
   height: 38vh;
   position: absolute;
-  right: 49vw;
+  right: 48.5vw;
   top: 53vh;
 }
 
 .empty {
-  background-color: brown;
+  background-color: rgb(19, 28, 53);
   text-align: center;
   width: 17vw;
   height: 38vh;
@@ -65,32 +79,51 @@
 }
 
 .clubs {
-  background-color: brown;
+  color: white;
+  background-color: black;
   text-align: center;
-  width: 20vw;
+  width: 26vw;
   height: 96vh;
   position: absolute;
-  right: 11vw;
+  right: 5.48vw;
   top: -5vh;
 }
-*{
-  margin:0;
-  padding:0;
+
+.clubs a:hover {
+  font-size: 6vh;
 }
-html,body{
+
+.clubs h1 {
+  padding-bottom: 7vh;
+  font-size: 8vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
   height: 100%;
 }
 
-#container{
-  min-height:100%;
+#container {
+  min-height: 100%;
 }
 
-main{
-  overflow:auto;
+main {
+  overflow: auto;
   padding-bottom: 8vw;
- 
 }
 
+.carousel {
+  position: absolute;
+  left: 25vw;
+  top: 5vh;
+  width: 50vw;
+  height: 40vh;
+  overflow: hidden;
+}
 
 footer {
   background-color: darkgrey;
@@ -98,7 +131,7 @@ footer {
   position: relative;
   height: 8vh;
   margin-top: -8vh;
-  clear:both;
+  clear: both;
   text-align: center;
-  font-size:4vh;
+  font-size: 4vh;
 }
