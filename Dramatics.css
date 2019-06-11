@@ -48,7 +48,7 @@ ul li{
     font-size:2vh;
 }
 .content{
-    background-image:url(6.png);
+    background-image:url(images/6.png);
     min-height: 100%;
     position: relative;
     
@@ -67,7 +67,7 @@ ul li{
 .section-light{
     background-color:#f4f4f4;
     color:#666;
-    background-image: url(8.png);
+    background-image: url(images/8.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -122,7 +122,7 @@ padding:2vw;
     color: chartreuse;
 }
 .content2{
-    background-image:url(8.png);
+    background-image:url(images/8.png);
     
     position: relative;
     
