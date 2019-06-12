@@ -1,0 +1,19 @@
+h2 {
+  text-align: center;
+  font-family: monospace;
+}
+h1 {
+  text-align: center;
+  font-size: 25%;
+}
+body {
+  background-color: #A1B7DD;
+}
+footer
+{
+  background-color: #364652;
+}
+.image {
+  float:left;
+  margin: 300px;
+}
