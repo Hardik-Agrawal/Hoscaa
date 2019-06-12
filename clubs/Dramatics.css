@@ -1,0 +1,114 @@
+body {
+  background-color: bisque;
+}
+h1 {
+  color: blue;
+  text-align: center;
+  padding-top: 4vh;
+  font-size: 7vh;
+  font-family: cursive;
+}
+
+#sidebox {
+  width: 20vw;
+  height: 70vh;
+
+  background-color: burlywood;
+
+  margin-left: 2vw;
+}
+
+.coordinator {
+  background-color: darkgray;
+  margin-top: 100px;
+}
+.cord_image {
+  margin-left: 5vw;
+  border: 3px solid blue;
+}
+
+h3 {
+  background-color: chocolate;
+  color: blue;
+}
+h2 {
+  padding-left: 5vh;
+  font-size: 2vw;
+  font-size: 3vh;
+}
+ul li {
+  font-size: 2vh;
+}
+.content {
+  background-image: url("../images/6.png");
+  min-height: 100%;
+  position: relative;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  margin-top: 100px;
+}
+.section {
+  text-align: center;
+}
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+  background-image: url(8png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cont1 {
+  border: 5px solid gray;
+  margin: 5vw;
+  text-align: center;
+  padding: 2vw;
+}
+.write1 {
+  font-size: 2vw;
+  color: cornsilk;
+  background: rgba(0, 0, 1, 0.5);
+  background-attachment: fixed;
+}
+.cont2 {
+  border: 5px solid gray;
+  margin: 10vw;
+
+  text-align: center;
+  padding: 2vw;
+}
+.write2 {
+  font-size: 2vw;
+  color: cornsilk;
+  background: rgba(0, 0, 1, 0.5);
+  background-attachment: fixed;
+}
+.subcont {
+  background: rgba(0, 0, 1, 0.5);
+}
+.cordimg {
+  border: 5px solid gray;
+  margin-left: 10vw;
+  padding-left: 3vw;
+  padding-top: 2vw;
+  background: rgba(1, 0, 0, 0.5);
+}
+
+.cordinfo {
+  padding-left: 25vw;
+  color: chartreuse;
+}
+.content2 {
+  background-image: url(8png);
+
+  position: relative;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
