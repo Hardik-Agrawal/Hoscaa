@@ -48,7 +48,7 @@ ul li{
     font-size:2vh;
 }
 .content{
-    background-image:url(images/6.png);
+    background-image:url("../images/6.png");
     min-height: 100%;
     position: relative;
     
