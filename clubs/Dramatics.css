@@ -57,7 +57,7 @@ ul li {
 .section-light {
   background-color: #f4f4f4;
   color: #666;
-  background-image: url(8png);
+  background-image: url("../images/8.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -103,7 +103,7 @@ ul li {
   color: chartreuse;
 }
 .content2 {
-  background-image: url(8png);
+  background-image: url("../images/8.png");
 
   position: relative;
 
