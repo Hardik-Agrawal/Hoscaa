@@ -40,25 +40,16 @@ ul li {
   font-size: 2vh;
 }
 .content {
-  /* background-image: url("../images/6.png");
+  background-image: url("../images/6.png");
   min-height: 100%;
-  position: relative; */
+  position: relative;
 
-  /* background-position: center;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed; */
+  background-attachment: fixed;
   height: 100vh;
   margin-top: 100px;
-
-  /* -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover; */
-  background: url("../images/6.png") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 .section {
   text-align: center;
