@@ -50,6 +50,9 @@ ul li {
   background-attachment: fixed;
   height: 100vh;
   margin-top: 100px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 .section {
   text-align: center;
