@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100vw;
+  height: 9vh;
+  background: rgba(27, 1, 48, 1);
+  margin-top: -20px;
+}
+.header ul li {
+  list-style: none;
+  display: inline-block;
+  margin-top: 30px;
+}
+.header ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  padding: 30px;
+  color: white;
+}
+.header ul li a:hover {
+  color: deeppink;
+}
+#abt {
+  margin-left: 40vw;
+}
+.header2 {
+  width: 100vw;
+  height: 0.3vh;
+  background-color: darkgrey;
+}
+.header3 {
+  width: 100vw;
+  height: 18vh;
+  background-color: black;
+  position: sticky;
+  top: 0;
+}
+.mainimg {
+  width: 100vw;
+  height: 95vh;
+  background-image: url("../images/1o.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 1;
+}
+.subimg {
+  width: 100vw;
+  height: 95vh;
+  background: rgba(0, 1, 1, 0.65);
+}
+.heading {
+  padding-top: 40vh;
+  font-size: 300px;
+  padding-left: 20vw;
+  color: white;
+  position: sticky;
+}
+.heading2 {
+  padding-top: 0vh;
+  font-size: 50px;
+  padding-left: 40vw;
+  color: white;
+  position: sticky;
+}
+.carousel {
+  position: sticky;
+  background: rgba(27, 1, 48, 1);
+}
+.gallery {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
