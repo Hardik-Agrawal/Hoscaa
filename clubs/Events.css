@@ -53,9 +53,9 @@ body {
   background: rgba(0, 1, 1, 0.65);
 }
 .heading {
-  padding-top: 40vh;
-  font-size: 300px;
-  padding-left: 20vw;
+  padding-top: 30vh;
+  font-size: 200px;
+  padding-left: 25vw;
   color: white;
   position: sticky;
 }
